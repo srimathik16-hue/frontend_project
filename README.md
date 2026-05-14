@@ -1,16 +1,179 @@
-# React + Vite
+# 🎓 Student Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive frontend project built using React and Vite for managing student details.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Student Tracker is a simple student management system designed for:
 
-## React Compiler
+* Staff
+* Students
+* Parents
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project includes login pages and student detail management features.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ✨ Features
+
+## 👨‍🏫 Staff Module
+
+Staff can:
+
+* Add student details
+* View student details
+* Edit student details
+* Delete student details
+
+### Staff Login
+
+* ID: `staff`
+* Password: `1234`
+
+---
+
+## 👨‍🎓 Student Module
+
+Students can:
+
+* Login using ID and password
+* View their details
+
+---
+
+## 👨‍👩‍👧 Parent Module
+
+Parents can:
+
+* Login using student ID and password
+* View student details
+
+---
+
+# 📝 Student Details Included
+
+Each student record contains:
+
+* Name
+* Student ID
+* Password
+* Department
+* Behaviour
+* Arrears
+* Fees Status
+* Exam Fees Status
+
+---
+
+# 🛠️ Technologies Used
+
+* React JS
+* Vite
+* JavaScript
+* HTML
+* CSS
+
+---
+
+# 🎨 UI Design
+
+* Responsive design
+* Green themed modern UI
+* Mobile friendly layout
+* Responsive table
+* Gradient background
+
+---
+
+# 📂 Folder Structure
+
+```bash
+src
+│
+├── components
+│   ├── Home.jsx
+│   ├── StaffLogin.jsx
+│   ├── StudentLogin.jsx
+│   ├── ParentLogin.jsx
+│   ├── StaffDashboard.jsx
+│   ├── StudentView.jsx
+│   └── ParentView.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/your-username/student-tracker.git
+```
+
+## Open Project
+
+```bash
+cd student-tracker
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run Project
+
+```bash
+npm run dev
+```
+
+---
+
+# 📸 Project Screens
+
+* Home Page
+* Staff Login
+* Student Login
+* Parent Login
+* Staff Dashboard
+* Student View
+* Parent View
+
+---
+
+# 📱 Responsive Design
+
+The project works on:
+
+* Desktop
+* Tablet
+* Mobile Devices
+
+---
+
+# 🔮 Future Improvements
+
+* Backend Integration
+* Database Connection
+* Authentication System
+* Student Search Feature
+* Attendance Management
+* Marks Management
+* Dark Mode
+
+---
+
+# 👩‍💻 Developer
+
+Developed by Srimathi K.
+
+---
+
+# 📄 License
+
+This project is for educational and learning purposes.
